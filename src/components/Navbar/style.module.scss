@@ -1,0 +1,22 @@
+@import "../../styles/base.scss";
+
+.navbar {
+  background-color: #fff;
+  color: #000;
+  font-size: 32px;
+}
+
+.navbarContainer {
+  @include justifyBetween;
+  height: fit-content;
+}
+
+.navbarTitle {
+  font-weight: 700;
+  font-size: 18px;
+  color: black;
+}
+
+.themeSwitch {
+  font-size: 24px;
+}

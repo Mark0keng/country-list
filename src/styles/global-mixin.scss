@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  width: 100%;
+}
+
+.container {
+  width: 100%;
+  padding: 48px;
+}
+
+@mixin justifyBetween {
+  display: flex;
+  justify-content: space-between;
+}
+
+@mixin justifyCenter {
+  display: flex;
+  justify-content: center;
+}

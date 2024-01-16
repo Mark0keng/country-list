@@ -1,0 +1,31 @@
+@import "../../styles/base.scss";
+
+.back {
+  padding-bottom: 64px;
+}
+
+.button {
+  color: #000;
+  background-color: #fff;
+}
+
+.countryContainer {
+  @include justifyCenter;
+  gap: 5%;
+}
+
+.countryFlag {
+  height: 100;
+  overflow: hidden;
+}
+
+.flagImage {
+  width: 100%;
+  object-fit: cover;
+  max-height: 400px;
+}
+
+.countryInfo {
+  @include justifyBetween;
+  gap: 7%;
+}
